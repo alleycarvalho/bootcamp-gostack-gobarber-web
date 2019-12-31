@@ -1,68 +1,66 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    <img src=".github/gostack-logo.png" width="200px" alt="GoStack" />
+</h1>
 
-## Available Scripts
+<h3 align="center">
+  Desafio 9: GoBarber, frontend web
+</h3>
 
-In the project directory, you can run:
+<blockquote align="center">“Mude você e todo o resto mudará naturalmente!”</blockquote>
 
-### `yarn start`
+<p align="center">
+  <img src="https://img.shields.io/github/languages/count/alleycarvalho/bootcamp-gostack-gobarber-web?color=%2304D361" alt="GitHub language count">
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <img src="https://img.shields.io/badge/license-MIT-%2304D361" alt="License">
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+  <a href="https://github.com/alleycarvalho/bootcamp-gostack-gobarber-web/stargazers">
+    <img src="https://img.shields.io/github/stars/alleycarvalho/bootcamp-gostack-gobarber-web?style=social" alt="Stargazers">
+  </a>
+</p>
 
-### `yarn test`
+## :rocket: Sobre o projeto
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Uma aplicação para agendamentos de um salão de beleza criada do zero utilizando [react-app](https://create-react-app.dev/docs/getting-started).
 
-### `yarn build`
+## :mortar_board: Bootcamp - Desafio 9
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Ferramentas e conceitos utilizados
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- [ESLint](https://eslint.org/), [Prettier](https://prettier.io/) & [EditorConfig](https://editorconfig.org/)
+- [Reactotron](https://github.com/infinitered/reactotron)
+- [React Router Dom](https://reacttraining.com/react-router/web/guides/quick-start)
+- [Style Components](https://www.styled-components.com/docs/basics)
+- [React Icons](https://react-icons.netlify.com/#/)
+- Utilização do [Axios](https://github.com/axios/axios)
+- [Polished](https://github.com/styled-components/polished)
+- [Redux](https://redux.js.org/), [Redux Saga](https://github.com/redux-saga/redux-saga), [Immer](https://github.com/immerjs/immer) e utilização com [Reactotron](https://github.com/infinitered/reactotron)
+- [History](https://github.com/ReactTraining/history/blob/master/docs/GettingStarted.md)
+- [Toastify](https://github.com/fkhadra/react-toastify)
+- [React Hooks](https://pt-br.reactjs.org/docs/hooks-intro.html)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Funcionalidades
 
-### `yarn eject`
+- Listar agendamentos do provedor de serviço;
+- Navegação entre datas e horários disponíveis;
+- Visualizar notificações;
+- Marcar notificações como lidas;
+- Visualizar e alterar perfil do usuário;
+- Alterar avatar do usuário.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## :computer: Resultado do desafio
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Dashboard (Agendamentos)
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![Desafio 09 - Dashboard](.github/gobarber-web-dashboard.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Notificações e Perfil do Usuário
 
-## Learn More
+![Desafio 09 - Profile](.github/gobarber-web-profile.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## :memo: Licença
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
-### Code Splitting
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Desafio realizado por Alley M. Carvalho
