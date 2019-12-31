@@ -51,11 +51,11 @@
 
 ### Dashboard (Agendamentos)
 
-![Desafio 09 - Dashboard](.github/gobarber-web-dashboard.png)
+![Desafio 09 - Dashboard](.github/gobarber-web-dashboard.jpg)
 
 ### Notificações e Perfil do Usuário
 
-![Desafio 09 - Profile](.github/gobarber-web-profile.png)
+![Desafio 09 - Profile](.github/gobarber-web-profile.jpg)
 
 ## :memo: Licença
 
